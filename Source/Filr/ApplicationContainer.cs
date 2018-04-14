@@ -1,18 +1,14 @@
 ﻿using FilrLibrary;
 using Ninject;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Filr
 {
-	class ApplicationContainer : IDisposable
+	internal class ApplicationContainer : IDisposable
 	{
 		private readonly IKernel _kernel;
-
 
 		public ApplicationContainer()
 		{

@@ -1,5 +1,5 @@
-﻿using System.IO;
-using Extensions;
+﻿using Extensions;
+using System.IO;
 
 namespace FilrLibrary
 {

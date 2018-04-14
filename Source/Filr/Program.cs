@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CommandLine;
-using FilrLibrary;
-using Ninject;
 
 namespace Filr
 {
 	public class Program
 	{
-		static void Main(string[] args)
+		private static void Main(string[] args)
 		{
 			CommandLineParser.Run<CommandLineOptions>(args, (options) =>
 			{

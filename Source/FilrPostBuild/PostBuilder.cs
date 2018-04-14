@@ -1,7 +1,7 @@
-﻿using System;
+﻿using ILRepacking;
+using System;
 using System.IO;
 using System.Linq;
-using ILRepacking;
 
 namespace FilrPostBuild
 {
@@ -56,8 +56,7 @@ namespace FilrPostBuild
 				AllowWildCards = false,
 				TargetKind = ILRepack.Kind.Exe,
 				SearchDirectories = new string[] { _location },
-				OutputFile =  executables.First()
-
+				OutputFile = executables.First()
 			}).Repack();
 
 			foreach (var assembly in assemblies.Where(x => x != "ILRepack.dll").Select(x => Path.Combine(_location, x)))

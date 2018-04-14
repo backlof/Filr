@@ -6,7 +6,6 @@ namespace FilrLibrary
 	{
 		public FileFilterer()
 		{
-
 		}
 
 		public bool Filter(FileData fileInfo, FileEnumeratorCriteria options)

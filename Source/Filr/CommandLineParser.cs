@@ -1,7 +1,7 @@
-﻿using System;
+﻿using CommandLine;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using CommandLine;
 
 namespace Filr
 {
@@ -9,7 +9,6 @@ namespace Filr
 	{
 		public CommandLineParser()
 		{
-
 		}
 
 		public static void Run<T>(string[] args, Action<T> action)
