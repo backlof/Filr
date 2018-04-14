@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filr", "Filr\Filr.csproj", "{31F797CD-0FC1-4F03-88BE-0F0DBDA17399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilrLibrary", "FilrLibrary\FilrLibrary.csproj", "{12635CC7-C52F-474D-984E-CBC01E078296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{743437F5-8547-4AF8-8ECD-02A8691D17F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F797CD-0FC1-4F03-88BE-0F0DBDA17399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F797CD-0FC1-4F03-88BE-0F0DBDA17399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F797CD-0FC1-4F03-88BE-0F0DBDA17399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F797CD-0FC1-4F03-88BE-0F0DBDA17399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12635CC7-C52F-474D-984E-CBC01E078296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12635CC7-C52F-474D-984E-CBC01E078296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12635CC7-C52F-474D-984E-CBC01E078296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12635CC7-C52F-474D-984E-CBC01E078296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743437F5-8547-4AF8-8ECD-02A8691D17F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743437F5-8547-4AF8-8ECD-02A8691D17F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743437F5-8547-4AF8-8ECD-02A8691D17F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743437F5-8547-4AF8-8ECD-02A8691D17F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E017249-03CF-41F0-AD13-BD72AB56C6AA}
+	EndGlobalSection
+EndGlobal
