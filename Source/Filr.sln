@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilrLibrary", "FilrLibrary\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{743437F5-8547-4AF8-8ECD-02A8691D17F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilrPostBuild", "FilrPostBuild\FilrPostBuild.csproj", "{97CC0A5A-9C49-48CE-8590-9695F8A29173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{743437F5-8547-4AF8-8ECD-02A8691D17F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{743437F5-8547-4AF8-8ECD-02A8691D17F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{743437F5-8547-4AF8-8ECD-02A8691D17F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CC0A5A-9C49-48CE-8590-9695F8A29173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CC0A5A-9C49-48CE-8590-9695F8A29173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CC0A5A-9C49-48CE-8590-9695F8A29173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CC0A5A-9C49-48CE-8590-9695F8A29173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

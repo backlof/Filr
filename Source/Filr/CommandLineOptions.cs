@@ -26,5 +26,8 @@ namespace Filr
 
 		[Option('i', "sub", Default = false, HelpText = "Include subdirectories.", Required = false)]
 		public bool IncludeSubdirectories { get; set; }
+
+		[Option('s', "exp", Default = false, HelpText = "Show file in file explorer.", Required = false)]
+		public bool ShowFileInExplorer { get; set; }
 	}
 }
